@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+
+	<!-- P5 libraries -->
+	<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.sound.min.js"></script>
+
+	<!-- A-Frame libraries -->
+	<script language="javascript" type="text/javascript" src="./libraries/aframe.min.js"></script>
+
+	<!-- AFrameP5 library -->
+	<script language="javascript" type="text/javascript" src="./libraries/aframep5.js"></script>
+
+	<!-- P5 Sketch -->
+	<script language="javascript" type="text/javascript" src="helper.js"></script>
+	<script language="javascript" type="text/javascript" src="cloud.js"></script>
+	<script language="javascript" type="text/javascript" src="car.js"></script>
+	<script language="javascript" type="text/javascript" src="log.js"></script>
+	<script language="javascript" type="text/javascript" src="coin.js"></script>
+	<script language="javascript" type="text/javascript" src="floor.js"></script>
+	<script language="javascript" type="text/javascript" src="fence.js"></script>
+	<script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+
+
+	<link rel="stylesheet" href="site.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!--jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+
+<!-- container to hold our VR scene - make sure to give this element an ID of 'VRScene' -->
+<a-scene id="VRScene">
+
+	<a-text id="score" value="" font="https://cdn.aframe.io/fonts/mozillavr.fnt" color="white" width="0.5" wrap-count="10" position="-0.20 0.8 -1.5"> </a-text>
+	<a-text id="timer" value="" font="https://cdn.aframe.io/fonts/mozillavr.fnt" color="white" width="0.5" wrap-count="10" position="-0.25 0.9 -1.5"> </a-text>
+
+	<a-text class="start" value="Crossy Road" color="white" font="https://cdn.aframe.io/fonts/mozillavr.fnt"  position="-5 3 40" wrap-count="10" width="10"></a-text>
+	<a-text class="start" value="Click to Start" color="white" font="https://cdn.aframe.io/fonts/mozillavr.fnt"  position="-2.5 1 40" wrap-count="13" width="5"></a-text>
+
+	<a-text id="endTitle" value="" color="white" font="https://cdn.aframe.io/fonts/mozillavr.fnt"  position="-3.5 3 40" wrap-count="10" width="7"></a-text>
+	<a-text id="endScore" value="" color="white" font="https://cdn.aframe.io/fonts/mozillavr.fnt"  position="-2.5 1.75 40" wrap-count="13" width="5"></a-text>
+	<a-text id="endAgain" value="" color="white" font="https://cdn.aframe.io/fonts/mozillavr.fnt"  position="-3.5 1 40" wrap-count="20" width="7"></a-text>
+
+	<a-assets id="VRAssets">
+		<img src="images/road_tile.png" id="road_tile">
+		<img src="images/coin.png" id="coin">
+	</a-assets>
+
+	<a-sky color="#3CF"></a-sky>
+
+</a-scene>
+
+</body>
+</html>

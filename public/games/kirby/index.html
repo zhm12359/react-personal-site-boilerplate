@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../p5/p5.min.js"></script>
+    <script src="../p5/addons/p5.dom.min.js"></script>
+    <script src="../p5/addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+    <style> body {padding: 0; margin: 0;} </style>
+    <style> #game {overflow: hidden;} #play{float:left;} #controls{float:left;} </style>
+</head>
+<body>
+
+
+<div id="game">
+    <div id="play"></div>
+    <div id="controls">
+        <form>
+            <h2> Cheat Pad</h2>
+            <table>
+                <tbody>
+
+                <tr>
+                    <td>Missile Size:</td>
+                    <td><input type="range" id="range1" min="30" max="200" step="1" value="80" oninput="updateMissile(this);" onchange="updateMissile(this);"></td>
+                </tr>
+
+                <tr>
+                    <td>Star Size:</td>
+                    <td><input type="range" id="range2" min="30" max="200" step="1" value="80" oninput="updateStar(this);" onchange="updateStar(this);"></td>
+                </tr>
+
+                <tr>
+                    <td>Kirby Size:</td>
+                    <td><input type="range" id="range3" min="30" max="200" step="1" value="80" oninput="updateKirby(this);" onchange="updateKirby(this);"></td>
+                </tr>
+
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
