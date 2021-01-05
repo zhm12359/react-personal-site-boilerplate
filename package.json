@@ -2,6 +2,7 @@
   "name": "react-personal-site-boilerplate",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://zhm12359.github.io/react-personal-site-boilerplate",
   "dependencies": {
     "@ant-design/icons": "^4.3.0",
     "@craco/craco": "^6.0.0",
@@ -15,6 +16,7 @@
     "@types/react-typing-animation": "^1.6.2",
     "antd": "^4.9.4",
     "craco-less": "^1.17.1",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
@@ -26,7 +28,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
