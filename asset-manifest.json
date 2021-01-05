@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-personal-site-boilerplate/static/css/main.156b46af.chunk.css",
+    "main.js": "/react-personal-site-boilerplate/static/js/main.e017d088.chunk.js",
+    "main.js.map": "/react-personal-site-boilerplate/static/js/main.e017d088.chunk.js.map",
+    "runtime-main.js": "/react-personal-site-boilerplate/static/js/runtime-main.103b67f8.js",
+    "runtime-main.js.map": "/react-personal-site-boilerplate/static/js/runtime-main.103b67f8.js.map",
+    "static/js/2.3137d59f.chunk.js": "/react-personal-site-boilerplate/static/js/2.3137d59f.chunk.js",
+    "static/js/2.3137d59f.chunk.js.map": "/react-personal-site-boilerplate/static/js/2.3137d59f.chunk.js.map",
+    "static/js/3.5cd5d88a.chunk.js": "/react-personal-site-boilerplate/static/js/3.5cd5d88a.chunk.js",
+    "static/js/3.5cd5d88a.chunk.js.map": "/react-personal-site-boilerplate/static/js/3.5cd5d88a.chunk.js.map",
+    "index.html": "/react-personal-site-boilerplate/index.html",
+    "static/css/main.156b46af.chunk.css.map": "/react-personal-site-boilerplate/static/css/main.156b46af.chunk.css.map",
+    "static/js/2.3137d59f.chunk.js.LICENSE.txt": "/react-personal-site-boilerplate/static/js/2.3137d59f.chunk.js.LICENSE.txt",
+    "static/media/Cover.less": "/react-personal-site-boilerplate/static/media/cover.4e79b5e7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.103b67f8.js",
+    "static/js/2.3137d59f.chunk.js",
+    "static/css/main.156b46af.chunk.css",
+    "static/js/main.e017d088.chunk.js"
+  ]
+}
